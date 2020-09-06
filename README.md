@@ -1,10 +1,9 @@
-# Trabalhando com Maven para build
 
-Gerar o archetype maven
+### Gerar o archetype maven
 
 mvn archetype:generate -DartifactId=blog -DgroupId=br.com.alura.maven -DinterativeMode=false -DarchetypeArtifactId=maven-archetype-quickstart
 
-Adicionar o plugin do jetty ao arquivo pom.xml
+### Adicionar o plugin do jetty ao arquivo pom.xml
 
  <plugin>
 	<groupId>org.eclipse.jetty</groupId>
@@ -12,7 +11,6 @@ Adicionar o plugin do jetty ao arquivo pom.xml
 	<version>9.4.31.v20200723</version>
  </plugin>
 
-Executar o jetty como server no projeto
+### Executar o jetty como server no projeto
 
 mvn jetty:run
-
